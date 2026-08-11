@@ -3,8 +3,12 @@ This folder contains a series of Jupyter notebooks designed to classify and anal
 
 🧩 widget_classifier.ipynb
 
-An interactive widget-based notebook for manual labeling of time series based on the observed burst patterns.
+An interactive widget-based notebook for manual targeting of time series based on the observed burst patterns.
 For each set of parameters, it allows saving both the input parameters and their corresponding manually assigned category.
+
+💾 Manual_targets.txt
+Classifications obtained by the manual targeting procedure.
+
 
 📖 Categories_reader_and_plotter.ipynb
 
@@ -14,6 +18,9 @@ It visualizes how different bursting pattern categories degenerate or cluster in
 🧪 Features_Simulator.ipynb
 
 Simulates multiple time series across the parameter space and extracts relevant features for each series that are useful for downstream classification (e.g., spike frequency, ISI, bbaseline jump, etc.).
+
+💾 Simulated Features
+
 
 🤖 Features_Classifier.ipynb
 

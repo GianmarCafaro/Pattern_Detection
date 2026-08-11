@@ -18,3 +18,7 @@ Simulates multiple time series across the parameter space and extracts relevant 
 🤖 Features_Classifier.ipynb
 
 Based on the extracted features, this notebook trains a model to automatically classify the time series into predefined bursting categories.
+
+⚡ Nerst_potential_Simulator.ipynb
+
+Simulates membrane-potential and ion-concentration dynamics during a step change in extracellular potassium concentration (K_bath).It reconstructs intracellular and extracellular sodium and potassium concentrations, calculates the corresponding Nernst potentials, and generates publication-style plots of the membrane potential, potassium concentrations, K_bath protocol, and ionic reversal potentials.

@@ -19,12 +19,26 @@ It visualizes how different bursting pattern categories degenerate or cluster in
 
 Simulates multiple time series across the parameter space and extracts relevant features for each series that are useful for downstream classification (e.g., spike frequency, ISI, bbaseline jump, etc.).
 
-💾 Simulated Features
+
+💾 Simulated_features.txt
+
+Features extracted from the simulated membrane potential time series varying the three conductances and the K Bath.
 
 
 🤖 Features_Classifier.ipynb
 
-Based on the extracted features, this notebook trains a model to automatically classify the time series into predefined bursting categories.
+Based on the extracted features, this notebook uses a deterministic algorithm to automatically classify the time series into predefined bursting categories.
+
+
+💾 clssified_alg_categories.txt
+
+Classifications obtained by the features based targeting procedure.
+
+
+📖 Categories_reader_Sim.ipynb
+
+Similar to Categories_reader_and_plotter.ipynb this notebook reads the data obtained by the features based targeting procedure.
+
 
 ⚡ Nerst_potential_Simulator.ipynb
 

@@ -6,7 +6,7 @@ This folder contains a series of Jupyter notebooks designed to classify and anal
 An interactive widget-based notebook for manual labeling of time series based on the observed burst patterns.
 For each set of parameters, it allows saving both the input parameters and their corresponding manually assigned category.
 
-📖 Categories_reader.ipynb
+📖 Categories_reader_and_plotter.ipynb
 
 Reads classification files created with widget_classifier.ipynb, extracting parameter-category pairs.
 It visualizes how different bursting pattern categories degenerate or cluster in parameter space via various plots.
